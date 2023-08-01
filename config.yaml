@@ -1,0 +1,11 @@
+# OpenAI API key
+# The value below is an example, replace with your API key
+openai_api_key: 'YOUR_API_KEY_HERE'
+
+# Data sources that will be available in the drop down menu.
+# A data source is defined as a dictionary where the key is the name
+# of the source and the value is either path to a CSV file or valid DB connection URL.
+# The values below are just an example, replace with actual file path/connection URL
+data_sources:
+  clients_csv: 'data/clients.csv'
+  clients_db: 'postgresql://username:password@host:port/database'
